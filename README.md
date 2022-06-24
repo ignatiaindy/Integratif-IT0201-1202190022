@@ -70,25 +70,39 @@
 
    ![02_4_laravelrssfeed_db](assets/02_4_laravelrssfeed_db.PNG)
 
-2. Membuat file AggreController.php di app/http/controllers
+2. Membuat file RssController.php dan NewsController.php di app/http/controllers
 
-   ```php+html
-   php artisan make:controller AggreController
+   ```
+   php artisan make:controller RssController
+   php artisan make:controller NewsController
    ```
 
-3. Edit file AggreController.php
+3. Menjalankan migration dan seeding
 
-   ![02_1_aggrecontroller_vscode](assets/02_1_aggrecontroller_vscode.PNG)
+   ```
+   php artisan migrate:fresh
+   php artisan migrate --seed
+   ```
 
-4. Menambahkan Route di we.php
+4. Edit file NewsController.php
+
+   ![02_1_newscontroller_vscode](assets/02_1_newscontroller_vscode.PNG)
+
+5. Menambahkan Route di web.php
 
    ![02_2_webphp_vscode](assets/02_2_webphp_vscode.PNG)
 
-5. Cek di DB apakah sudah terupdate
+6. Cek di DB apakah sudah terupdate
 
-   ![02_5_laravelrssfeed_post_db](assets/02_5_laravelrssfeed_post_db.PNG)
+   ![02_5_laravelrssfeed_rss_db](assets/02_5_laravelrssfeed_rss_db.PNG)
 
-   ![02_6_feed_xml](assets/02_6_feed_xml.PNG)
+   ![02_6_laravelrssfeed_news_db](assets/02_6_laravelrssfeed_news_db.PNG)
+
+   ![02_7_feed_1_xml](assets/02_7_feed_1_xml.PNG)
+
+   ![02_8_feed_2_xml](assets/02_8_feed_2_xml.PNG)
+
+   ![02_9_feed_3_xml](assets/02_9_feed_3_xml.PNG)
 
    ------
 
