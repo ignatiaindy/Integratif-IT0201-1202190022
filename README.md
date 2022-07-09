@@ -118,7 +118,9 @@
 
 Menggunakan 3 RSS
 Esport : https://esportv.org/rss/category/valorant
+
 Korea : https://www.koreatimes.co.kr/www/rss/entertainment.xml
+
 United Nation : https://news.un.org/feed/subscribe/en/news/region/middle-east/feed/rss.xml
 
 1. Membuat file blade.php di recources/views
@@ -139,7 +141,7 @@ United Nation : https://news.un.org/feed/subscribe/en/news/region/middle-east/fe
 
 2. Menambahkan Route di web.php
 
-   ![03_4_webphp_vscode](assets/03_4_webphp_vscode.PNG)
+   ![03_4_route_webphp_vscode](assets/03_4_route_webphp_vscode.PNG)
 
 3. Menambahkan beberapa Controller
 
