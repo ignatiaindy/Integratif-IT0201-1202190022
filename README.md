@@ -104,6 +104,63 @@
 
    ![02_9_feed_3_xml](assets/02_9_feed_3_xml.PNG)
 
-   ------
+------
 
-   ​
+# Final Project Phase 3
+
+**Ignatia Indreswari  1202190022 [ IT 02-01 ]**
+
+------
+
+## Step by Step
+
+------
+
+Menggunakan 3 RSS
+Esport : https://esportv.org/rss/category/valorant
+Korea : https://www.koreatimes.co.kr/www/rss/entertainment.xml
+United Nation : https://news.un.org/feed/subscribe/en/news/region/middle-east/feed/rss.xml
+
+1. Membuat file blade.php di recources/views
+
+   ```
+   header.blade.php
+   footer.blade.php
+   esport.blade.php
+   korea.blade.php
+   united.blade.php
+   ```
+
+   ![03_1_header_vscode](assets/03_1_header_vscode.PNG)
+
+   ![03_2_footer_vscode](assets/03_2_footer_vscode.PNG)
+
+   ![03_3_esport_vscode](assets/03_3_esport_vscode.PNG)
+
+2. Menambahkan Route di web.php
+
+   ![03_4_webphp_vscode](assets/03_4_webphp_vscode.PNG)
+
+3. Menambahkan beberapa Controller
+
+   ```
+   FeedController.php
+   EsController.php //untuk esport
+   KoController.php //untuk korea
+   UnController.php //untuk united nation
+   ```
+
+   ![03_5_feedcontroller_vscode](assets/03_5_feedcontroller_vscode.PNG)
+   ![03_6_escontroller_vscode](assets/03_6_escontroller_vscode.PNG)
+   ![03_7_kocontroller_vscode](assets/03_7_kocontroller_vscode.PNG)
+   ![03_8_uncontroller_vscode](assets/03_8_uncontroller_vscode.PNG)
+
+4. Tampilan dari InFeed
+
+   ![03_9_home_white_infeed](assets/03_9_home_white_infeed.PNG)
+   ![03_10_home_black_infeed](assets/03_10_home_black_infeed.PNG)
+   ![03_11_esport_infeed](assets/03_11_esport_infeed.PNG)
+   ![03_12_korea_infeed](assets/03_12_korea_infeed.PNG)
+   ![03_13_united_infeed](assets/03_13_united_infeed.PNG)
+
+------
